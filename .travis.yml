@@ -13,10 +13,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
+  keep_history: true
   local_dir: dist
   on:
     branch: master
-
-env:
-  global:
-    secure: GnjfkDEE/ODDd1eaCVFNtz3RmU30lpxFPLQwm8IEmx8p6ssVVVZ1dhwBX3m0EAc6mxzWpm7TKoB/4/xb1T6C28Ph987lgMtVjMoq2G14F1v36tkVmJHJDFRcFsNovQ0nRKchvobkj1ICtIgcAKTLGFfmVtyIzO6LTZ8K5mDeKhDDpriuVup3qMnHa1IMdR5afiCJC+5yWWabWWTCRfG8yVwTIaWYFdX+wQaJGcX3tAMF0RWuqlKka5JR6GZcE4l5z6k2nPPTtjmkY3rAutDVug7uVG9uIakzLxSU5OQXY571BHht+e15GEK1axLW/z09AxRyHDPKSwWPYV8gFn3o3tIxjPqop05cnUJ7WC+kelD75noJGjePhAJ0GhH5Lw0y5TX4fhVumCR35h5G6uIGgbdAEpiKc8Gbr9MdBXH880UKFNTN6fRAEtI0PuDHhRW5wX9qrvMgRCFOzGjCUXiWjBDYBzmYnC/PX8HopQLCnuYmcLspax+reolQJjVB+VhcWfXIBxaXOR8dPS2iDH8HuoIxWOn/BXzBoUb3B5R6QnQMXUTnYq6NyQL/zi5bP93cbR8DqJlM0L+eAnM3q5VA7FlXhwObUAGLjatpEGbvbBNMj9pw4KIeADbRXNbytd68gattw+Nmckuez1/wAi5CXvv/Q+Zdr4j8Xld9W605/cA=
